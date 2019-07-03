@@ -3,13 +3,15 @@
 GIT_USERNAME="YOUR_GIT_NAME"
 GIT_EMAIL="YOUR_GIT_EMAIL"
 
-bash ./osx/before.sh
-bash ./osx/settings.sh
-bash ./osx/homebrew.sh
-bash ./osx/xcode.sh
-bash ./osx/brew_prepare.sh
-bash ./osx/libs_install.sh
-bash ./osx/apps_install.sh
-bash ./osx/quicklook_plugins.sh
-bash ./osx/git_config.sh
-bash ./osx/after.sh
+LOCATION=$(pwd)/osx
+
+source $LOCATION/before.sh
+source $LOCATION/settings.sh
+source $LOCATION/homebrew.sh
+source $LOCATION/xcode.sh
+source $LOCATION/brew_prepare.sh
+source $LOCATION/libs_install.sh
+source $LOCATION/apps_install.sh
+source $LOCATION/quicklook_plugins.sh
+source $LOCATION/git_config.sh
+source $LOCATION/after.sh
