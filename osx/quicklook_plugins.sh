@@ -14,4 +14,3 @@ brew cask install betterzipql
 brew cask install webpquicklook
 brew cask install suspicious-package
 echo
-echo

@@ -28,3 +28,4 @@ ruby -v
 echo '------------------------------------------------'
 echo 'Installing Bundler...'
 gem install bundler
+echo

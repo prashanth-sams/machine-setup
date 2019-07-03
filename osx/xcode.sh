@@ -23,3 +23,7 @@ if [ $RESULT -eq 2 ]
         echo '...'
         echo
 fi
+# if test ! $(which gcc); then
+#     echo "Installing xcode..."
+#     xcode-select --install
+# fi
