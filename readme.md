@@ -20,6 +20,7 @@
 - Postman
 - Docker Toolbox
 - Quicklook plugins
+- Chromedriver
 
 ### Steps to Follow
 

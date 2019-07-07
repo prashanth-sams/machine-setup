@@ -12,11 +12,12 @@ if [ "$(uname)" = "Darwin" ]; then
     source $LOCATION/brew_prepare.sh
     source $LOCATION/libs_install.sh
     source $LOCATION/apps_install.sh
+    source $LOCATION/drivers_install.sh
     source $LOCATION/quicklook_plugins.sh
     source $LOCATION/git_config.sh
     source $LOCATION/after.sh
 elif [ "$(uname)" = "Linux" ]; then
     echo 'config for Linux machine is not yet ready'
 else
-    echo 'not a osx machine'
+    echo 'not a Linux or OSX machine'
 fi
