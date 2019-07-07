@@ -21,6 +21,7 @@
 - Docker Toolbox
 - Quicklook plugins
 - Chromedriver
+- Skitch
 
 ### Steps to Follow
 
