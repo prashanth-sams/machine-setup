@@ -21,9 +21,10 @@
 - Docker Toolbox
 - Quicklook plugins
 - Chromedriver
-- Skitch
+- Geckodriver
 - Android Studio
 - Appium
+- Skitch
 
 ### Steps to Follow
 

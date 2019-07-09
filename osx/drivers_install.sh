@@ -23,5 +23,15 @@ if test ! "$(which chromedriver)"; then
 else
     echo "Chromedriver is already available"
 fi
-chromedriver --version
-echo
+
+if test ! "$(which geckodriver)"; then
+    echo "Installing Geckodriver..."
+    FIREFOX_VERSION=$(/Applications/Firefox.app/Contents/MacOS/firefox --version)
+    UPDATED_VERSION="${FIREFOX_VERSION//@([a-zA-Z ]|.*)/}"
+
+    LOCATION=$(curl -sL https://github.com/mozilla/geckodriver/releases/latest | grep "releases/download.*macos" | cut -d \" -f 2 | tr -d \" | sed -e 's#.*download/v\(.*\)/geckogriver.*#\1#g')
+    wget --no-verbose -P ~/tmp_install/ https://github.com/$LOCATION
+    tar -zxvf ~/tmp_install/geckodriver-v0.24.0-macos.tar.gz -C ~/tmp_install/
+    mv ~/tmp_install/geckodriver /usr/local/bin
+    geckodriver --version
+fi
