@@ -12,6 +12,7 @@ if [ "$(uname)" = "Darwin" ]; then
     source $LOCATION/brew_prepare.sh
     source $LOCATION/libs_install.sh
     source $LOCATION/apps_install.sh
+    source $LOCATION/mobile_install.sh
     source $LOCATION/drivers_install.sh
     source $LOCATION/quicklook_plugins.sh
     source $LOCATION/git_config.sh

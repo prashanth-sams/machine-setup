@@ -22,6 +22,8 @@
 - Quicklook plugins
 - Chromedriver
 - Skitch
+- Android Studio
+- Appium
 
 ### Steps to Follow
 
