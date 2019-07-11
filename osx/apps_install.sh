@@ -48,3 +48,8 @@ echo 'Installing docker-toolbox...'
 if ! [ -x "$(command -v docker-machine)" ]; then
   brew cask install docker-toolbox
 fi
+
+echo 'Installing slack...'
+if ! [ -d "/Applications/Slack.app/" ]; then
+  brew cask install slack
+fi

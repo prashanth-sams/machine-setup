@@ -25,6 +25,7 @@
 - Android Studio
 - Appium
 - Skitch
+- Slack
 
 ### Steps to Follow
 
