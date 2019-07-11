@@ -37,8 +37,8 @@
 2. Replace `YOUR_GIT_NAME` & `YOUR_GIT_EMAIL` with your personal GitHub details
 
 ```
-GIT_USERNAME="username"
-GIT_EMAIL="user@gmail.com"
+export GIT_USERNAME="username"
+export GIT_EMAIL="user@gmail.com"
 ```
 
 3. Run `launch.sh` file in terminal
