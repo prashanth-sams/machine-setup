@@ -26,6 +26,9 @@
 - Appium
 - Skitch
 - Slack
+- Sourcetree
+- Visual Studio Code
+- Sublime Text 3
 
 ### Steps to Follow
 

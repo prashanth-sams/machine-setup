@@ -53,3 +53,18 @@ echo 'Installing slack...'
 if ! [ -d "/Applications/Slack.app/" ]; then
   brew cask install slack
 fi
+
+echo 'Installing sourcetree...'
+if ! [ -d "/Applications/Sourcetree.app/" ]; then
+  brew cask install sourcetree
+fi
+
+echo 'Installing vscode...'
+if ! [ -d "/Applications/Visual\ Studio\ Code.app/" ]; then
+  brew cask install visual-studio-code
+fi
+
+echo 'Installing sublime-text...'
+if ! [ -d "/Applications/Sublime\ Text.app/" ]; then
+  brew cask install sublime-text
+fi
