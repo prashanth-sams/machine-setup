@@ -2,6 +2,7 @@
 
 export GIT_USERNAME="YOUR_GIT_NAME"
 export GIT_EMAIL="YOUR_GIT_EMAIL"
+export GIT_PASSWORD="YOUR_GIT_PASSWORD"
 
 if [ "$(uname)" = "Darwin" ]; then
     LOCATION=$(pwd)/osx
