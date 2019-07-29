@@ -29,6 +29,7 @@
 - Sourcetree
 - Visual Studio Code
 - Sublime Text 3
+- fish
 
 ### Steps to Follow
 
