@@ -26,3 +26,6 @@ brew install fish
 echo 'fish' >> ~/.bash_profile
 source ~/.bash_profile
 echo
+echo 'Installing silver searcher...'
+brew install the_silver_searcher
+echo

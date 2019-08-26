@@ -30,6 +30,7 @@
 - Visual Studio Code
 - Sublime Text 3
 - fish
+- the silver searcher
 
 ### Steps to Follow
 
